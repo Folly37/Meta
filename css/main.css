@@ -26,7 +26,7 @@ body {
     padding-right: 32px;
 }
 
-.subtitle__header {
+.subtitle__header, .subtitle__join {
     font-family: 'Audiowide';
     color: rgb(255, 255, 255);
     font-size: 55px;
@@ -38,7 +38,7 @@ body {
     padding-top: 123px;
 }
 
-.title__header {
+.title__header, .title__join {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
@@ -315,8 +315,6 @@ body {
     height: 500px;
     padding-top: 80px;
 }
-
-
 
 .green__story__txt::before {
     content: ""; 
@@ -634,8 +632,98 @@ body {
 }
 
 
+.teams {
+    padding-top: 129px;
+}
 
+.title__teams {
+    text-align: center;
+}
 
+.title__teams__green {
+    color: rgb(141, 253, 27);
+    font-family: DM Mono;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.img__teams__ds {
+    margin: 12px;
+    padding-bottom: 22px;
+}
+
+.title__teams {
+    color: rgb(255, 255, 255);
+    font-family: DM Mono;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27.73px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+
+.title__teams2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.0px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.join {
+    padding-top: 200px;
+    padding-bottom: 118px;
+}
+
+.img__ds__join {
+    vertical-align: middle; 
+    margin-right: 9px; 
+}
+
+.footer {
+    background-color:rgb(66, 0, 106);
+    padding-top: 103px;
+    padding-bottom: 120px;
+}
+
+.footer__point a {
+    color: rgb(255, 255, 255);
+    font-family: DM Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.footer__point {
+    margin-bottom: 30px;
+}
+
+.footer__proff {
+    color: rgb(255, 255, 255);
+    font-family: DM Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.footer__img {
+    margin-right: 12px;
+}
 
 
 
